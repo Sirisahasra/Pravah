@@ -1,0 +1,32 @@
+# Large binary files — do NOT commit
+*.mp4
+*.avi
+*.mov
+*.pt
+*.pth
+*.onnx
+
+# Outputs
+outputs/
+*_log.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter / Colab checkpoints
+.ipynb_checkpoints/
+
+# Environment
+.env
+venv/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db

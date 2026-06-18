@@ -123,6 +123,23 @@ The pipeline produces two files:
 
 ---
 
+## CAD Design
+<img width="323" height="196" alt="image" src="https://github.com/user-attachments/assets/19e8e495-6154-48ad-a51c-a415db0a002b" />
+
+<img width="200" height="238" alt="image" src="https://github.com/user-attachments/assets/0c96e7fc-1975-4ef3-b259-034cf5ee3064" />
+
+---
+
+| Priority | Action | Trigger |
+|----------|--------|---------|
+| CRITICAL | `EMERGENCY_CORRIDOR` | Emergency vehicle detected |
+| HIGH | `ANOMALY_ALERT` | Stalled vehicle or wrong-way driver |
+| HIGH | `EXTEND_GREEN` | Critical congestion (density=HIGH, queue≥5) |
+| NORMAL | `ADAPTIVE_GREEN` | Busiest lane gets priority |
+| LOW | `DEFAULT_CYCLE` | No significant traffic |
+
+---
+
 ## Repository Structure
 
 ```
